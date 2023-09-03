@@ -33,4 +33,29 @@ const myFunction = function(){  // dty = object function
     console.log("Hello World");
 }
 
-console.log(typeof myObj)
+// console.log(typeof myObj)
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) ,  Heap (Non-Primitive)
+
+let myYtName = "Sambruh"
+
+let anotherName = myYtName
+anotherName = "YooBruh"
+
+// console.log(myYtName);
+// console.log(anotherName);
+
+let userOne = {
+    email : "User@google.com",
+    upi : "user@hdfc",
+}
+
+let UserTwo = userOne
+
+UserTwo.email = "user@microsoft"
+
+console.log(userOne.email);
+console.log(UserTwo.email);
